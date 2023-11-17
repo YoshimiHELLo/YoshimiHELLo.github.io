@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+    .container{
+        position: relative;
+    }
+
+    .center{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font: 18px;
+    }
+
+    img{
+        height: 400px;
+        width: 1000px;
+        opacity: 0.3;
+        
+    }
+
+    .topleft{
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+
+    }
+
+    .topright{
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 20px;
+    }
+
+    .bottomleft{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 20px
+    }
+
+    .bottomright{
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 20px
+    }
+
+    
+    
+</style>
+<body>
+    <div class="container">
+        <img src="../bootcamp/image/garden.jpg" alt="human" >
+        <div class="center">Center</div>
+        <div class="topleft">topleft</div>
+        <div class="topright">topright</div>
+        <div class="bottomleft">bottomleft</div>
+        <div class="bottomright">bottomright</div>
+
+    </div>
+
+    <!-- An element with position: relative; is positioned relative to its noemal position.-->
+    
+</body>
+</html>
